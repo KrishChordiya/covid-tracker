@@ -1,0 +1,34 @@
+.infoBox__body{
+	margin: 10px 0;
+	width: 150px !important;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.infoBox__body > h4{
+	font-weight: 500;
+}
+
+.infoBox__red{
+	color: red;
+	padding: 5px 0;
+}
+
+.infoBox__green{
+	color:lightgreen;
+	padding: 5px 0;
+}
+
+@media only screen and (max-width:768px){
+	.infoBox__body{
+		width: fit-content !important;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.infoBox__body{
+		width: 88% !important;
+		margin: 10px 10px;
+	}
+}

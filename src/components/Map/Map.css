@@ -1,0 +1,28 @@
+.map{
+    height: 500px;
+    margin: 10px;
+    margin-left: 10px;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: white;
+    flex: 1;
+}
+
+.map__marker{
+    /* background-color: red;
+    color  : white;
+    border-radius: 10px; */
+    width: 30px;
+    cursor: pointer;
+}
+
+.map__markerOption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapboxgl-ctrl-group {
+    width: 30px;
+    margin: 10px 0 0 10px;
+}
