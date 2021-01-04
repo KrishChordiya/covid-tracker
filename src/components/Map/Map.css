@@ -8,11 +8,11 @@
     flex: 1;
 }
 
-.map__marker{
+/* .map__marker{ */
     /* background-color: red;
     color  : white;
     border-radius: 10px; */
-    width: 30px;
+    /* width: 30px;
     cursor: pointer;
 }
 
@@ -25,4 +25,27 @@
 .mapboxgl-ctrl-group {
     width: 30px;
     margin: 10px 0 0 10px;
+} */
+
+.map .leaflet-container{
+    height: 100%;
+}
+
+.leaflet-popup-content-wrapper{
+    min-width: fit-content;
+}
+
+.leaflet-container a.leaflet-popup-close-button{
+    left: 10px;
+}
+
+.map__popupOption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map__popupOption > p{
+    margin: 0 !important;
+    padding: 2px 0 !important;
 }

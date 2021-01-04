@@ -1,9 +1,12 @@
 .infoBox__body{
 	margin: 10px 0;
 	width: 150px !important;
-	padding: 10px;
 	background-color: white;
 	border-radius: 5px;
+}
+
+.infoBox__main{
+	padding: 5px;
 }
 
 .infoBox__body > h4{
@@ -18,6 +21,18 @@
 .infoBox__green{
 	color:lightgreen;
 	padding: 5px 0;
+}
+
+.active__red{
+	width: 100%;
+	height: 5px;
+	background-color: red;
+}
+
+.active__green{
+	width: 100%;
+	height: 5px;
+	background-color:lightgreen;
 }
 
 @media only screen and (max-width:768px){
