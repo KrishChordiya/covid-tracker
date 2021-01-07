@@ -1,16 +1,16 @@
 import React from 'react'
 import "./InfoBox.css"
+import { formatNumber } from "../../utli"
 
-function InfoBox(props) {
-	const { header, data, totalData, classname, divclass } = props;
+function InfoBox({ header, classname, data, allData, divclass }) {
 
 	return (
 		<div className="infoBox__body">
 			<div className={divclass}></div>
 			<div className="infoBox__main">
 				<h4>{header}</h4>
-				<h2 className={classname}>+{data}</h2>
-				<p>{totalData} in Total</p>
+				<h2 className={classname}>+{formatNumber(data)}</h2>
+				<p>{formatNumber(allData)} in Total</p>
 			</div>
 		</div>
 	)
