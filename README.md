@@ -2,6 +2,10 @@
 
 ## Description
 - <a href="https://covid-tracker-f2f0e.web.app/">View Project</a>
-- This covid tracker gives number of casees occured in last three days country wise. All gives total number of cases till date worldwide and country wise.
 - Data is fetched from https://disease.sh/
 - React and firebase is used in this project.
+
+## Feature
+- Show details of last three days data,
+- Has Map in which you can easily see country wise data.
+- Has info table showing total number of cases country wise in descending order.
